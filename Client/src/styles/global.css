@@ -1,0 +1,572 @@
+body {
+  background-color: gray;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --primary-color: #c42424;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-color);
+  height: 150px;
+  padding: 0 7.7%;
+}
+
+.icon {
+  height: 45px;
+  width: 65px;
+}
+
+.thumbnail-image {
+  border-radius: 60%;
+  border: 3px solid white;
+  width: 60px;
+}
+.user-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 0px;
+}
+.btn-login {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+
+  color: #e8e8e8;
+  position: absolute;
+  width: 37px;
+  height: 19px;
+  left: 1167px;
+  top: 30px;
+}
+
+.btn-register {
+  width: 100px;
+  height: 40px;
+  left: 1240px;
+  top: 19px;
+
+  background: #e8e8e8;
+  border-radius: 10px;
+
+  font-weight: 900;
+  font-size: 14px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #c32424;
+
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 1240px;
+  top: 19px;
+}
+
+.red-box {
+  object-fit: cover;
+  width: 100%;
+  height: 703px;
+  position: fixed;
+  z-index: -1;
+  position: absolute;
+  background: #c42424;
+}
+
+.information1 {
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: violet;
+}
+
+.information2 {
+  font-family: Product Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  height: 466px;
+  left: 197px;
+  top: 1438px;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.text-center {
+  position: absolute;
+  width: 203px;
+  height: 44px;
+  left: 618px;
+  top: 1345px;
+  font-family: product sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #c32424;
+}
+
+.Raise-Fund-Position {
+  position: absolute;
+  width: 237px;
+  height: 44px;
+  left: 197px;
+  top: 164px;
+}
+
+.Card-Fund-Position {
+  position: absolute;
+  width: 237px;
+  height: 44px;
+  left: 197px;
+  top: 164px;
+}
+
+.Raise-Fund-Font {
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.makeFundBtn {
+  position: absolute;
+  width: 140px;
+  height: 35px;
+  left: 1000px;
+  top: 168px;
+  color: white;
+  background: #c32424;
+  border-radius: 10px;
+}
+
+.titlefund {
+  position: absolute;
+  width: 275px;
+  height: 44px;
+  left: 147px;
+  top: 164px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: black;
+}
+
+.title {
+  position: absolute;
+  width: 1083px;
+  height: 50px;
+  left: 147px;
+  top: 279px;
+}
+
+.button1 {
+  position: absolute;
+  width: 173px;
+  height: 35px;
+  left: 148px;
+  top: 353px;
+
+  background: #c32424;
+  border-radius: 10px;
+}
+.button11 {
+  position: absolute;
+  width: 154.46px;
+  height: 19px;
+  left: 9px;
+  top: 7px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+
+.goal {
+  position: absolute;
+  width: 1083px;
+  height: 50px;
+  left: 147px;
+  top: 412px;
+}
+
+.description {
+  position: absolute;
+  width: 1083px;
+  height: 237px;
+  left: 147px;
+  top: 486px;
+}
+
+.button2 {
+  position: absolute;
+  width: 412px;
+  height: 45px;
+  left: 818px;
+  top: 650px;
+
+  background: #c32424;
+  border-radius: 10px;
+}
+
+.button22 {
+  position: absolute;
+  width: 151px;
+  height: 22px;
+  left: 130px;
+  top: 10px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+
+.header {
+  position: absolute;
+  width: 165px;
+  height: 44px;
+  left: 197px;
+  top: 164px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.header1 {
+  position: absolute;
+  width: 280px;
+  height: 44px;
+  left: 825px;
+  top: 164px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.text {
+  position: absolute;
+  width: 81px;
+  height: 22px;
+  left: 404px;
+  top: 238px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c32424;
+}
+
+.text1 {
+  position: absolute;
+  width: 37px;
+  height: 22px;
+  left: 404px;
+  top: 266px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #616161;
+}
+
+.text2 {
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  left: 403px;
+  top: 318px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c32424;
+}
+
+.text3 {
+  position: absolute;
+  width: 168px;
+  height: 22px;
+  left: 403px;
+  top: 349px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #616161;
+}
+
+.text4 {
+  position: absolute;
+  width: 52px;
+  height: 22px;
+  left: 403px;
+  top: 398px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #c32424;
+}
+
+.text5 {
+  position: absolute;
+  width: 115px;
+  height: 22px;
+  left: 403px;
+  top: 429px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #616161;
+}
+
+.pictures1 {
+  position: absolute;
+  width: 180px;
+  height: 221.79px;
+  left: 196px;
+  top: 238px;
+}
+
+.row1 {
+  position: absolute;
+  width: 419px;
+  height: 101px;
+  left: 825px;
+  top: 238px;
+}
+
+.row2 {
+  position: absolute;
+  width: 112px;
+  height: 19px;
+  left: 280px;
+  top: 89px;
+
+  background: linear-gradient(180deg, #00ff75 0%, #00ff85 100%);
+  opacity: 0.1;
+  border-radius: 2px;
+}
+
+.textcard {
+  position: absolute;
+  width: 38px;
+  height: 14px;
+  left: 40px;
+  top: 2px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(29, 59, 29);
+}
+.picture60 {
+  position: absolute;
+  width: 550px;
+  height: 500px;
+  left: 191px;
+  top: 164px;
+}
+
+.textdetaildonate {
+  position: absolute;
+  width: 412px;
+  height: 88px;
+  left: 825px;
+  top: 164px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.textdetaildonate4 {
+  position: absolute;
+  width: 412px;
+  height: 153px;
+  left: 825px;
+  top: 414px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+
+  color: #616161;
+}
+
+.textdetaildonate2 {
+  position: absolute;
+  width: 128px;
+  height: 22px;
+  left: 825px;
+  top: 297px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #c32424;
+}
+
+.buttondetaildonate {
+  position: absolute;
+  width: 412px;
+  height: 45px;
+  left: 825px;
+  top: 607px;
+
+  background: #c32424;
+  border-radius: 10px;
+}
+
+.progressdetaildonate {
+  position: absolute;
+  width: 149px;
+  height: 5px;
+  left: 825px;
+  top: 337px;
+
+  background: #c32424;
+  border-radius: 50px;
+}
+
+.listDonation {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 191px;
+  top: 725px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+#basic-nav-dropdown {
+  text-align: left;
+  color: transparent;
+  height: 60px;
+  width: 60px;
+  background-image: url("../img/user.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 60px;
+  border: none;
+  margin-top: 20%;
+}
+
+.drop-container {
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  /* For desktop: */
+  .navbar-container {
+    height: 55px;
+  }
+}

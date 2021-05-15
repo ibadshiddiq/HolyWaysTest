@@ -1,0 +1,30 @@
+.donate-nominal {
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.btns {
+  background: #c32424;
+  color: white;
+  border: none;
+  padding: 5px 25px;
+  border-radius: 10px;
+
+  margin-left: auto;
+}
+
+.btns button {
+  background: #c32424;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}

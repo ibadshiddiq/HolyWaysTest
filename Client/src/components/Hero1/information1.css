@@ -1,0 +1,60 @@
+.header1 {
+  color: ghostwhite;
+  width: 545px;
+  height: 100px;
+  left: 165px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+}
+
+.paragraph {
+  position: absolute;
+  width: 545px;
+  height: 100px;
+  left: 165px;
+  top: 361px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+
+  color: #e8e8e8;
+}
+
+.button {
+  position: absolute;
+  width: 177px;
+  height: 40px;
+  left: 165px;
+  top: 508px;
+  border-radius: 10px;
+
+  background: #e8e8e8;
+  border-radius: 10px;
+
+  font-weight: 900;
+  font-size: 14px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #c32424;
+}
+
+.picture1 {
+  position: absolute;
+  width: 423px;
+  height: 659px;
+  left: 0px;
+  top: 584px;
+}
